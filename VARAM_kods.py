@@ -241,7 +241,7 @@ print("x="+str(x)+" y="+str(y))
 for i in range(0,y):
     for j in range(0,i-1):
         if iepirkumi[i]['ID'] == iepirkumi[j]['ID']:
-            print('apsveicu, tu sapisies!')
+            print('apsveicu, tu samisējies!')
             print(iepirkumi[i])
             print(iepirkumi[j])
             exit()
